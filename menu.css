@@ -1,0 +1,179 @@
+*,::after,::before{box-sizing:border-box;}
+header{display:block;}
+ul{margin-top:0;margin-bottom:1rem;}
+a{color:#007bff;text-decoration:none;background-color:transparent;-webkit-text-decoration-skip:objects;}
+a:hover{color:#0056b3;text-decoration:underline;}
+img{vertical-align:middle;border-style:none;}
+button{border-radius:0;}
+button:focus{outline:1px dotted;outline:5px auto -webkit-focus-ring-color;}
+button,input{margin:0;font-family:inherit;font-size:inherit;line-height:inherit;}
+button,input{overflow:visible;}
+button{text-transform:none;}
+[type=submit],button{-webkit-appearance:button;}
+[type=submit]::-moz-focus-inner,button::-moz-focus-inner{padding:0;border-style:none;}
+.container-fluid{width:100%;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto;}
+.row{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-right:-15px;margin-left:-15px;}
+.col-12{position:relative;width:100%;min-height:1px;padding-right:15px;padding-left:15px;}
+.col-12{-webkit-box-flex:0;-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%;}
+.dropdown{position:relative;}
+@media print{
+*,::after,::before{text-shadow:none!important;box-shadow:none!important;}
+a:not(.btn){text-decoration:underline;}
+img{page-break-inside:avoid;}
+}
+*{margin:0px;padding:0px;box-sizing:border-box;}
+*,:before,:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+:focus{outline:0 none;}
+a{color:#333;text-decoration:none!important;}
+a:hover{color:#ce0000;}
+.row{margin-right:0px;margin-left:0px;overflow:visible;width:100%;float:right;display:inline;}
+.col-12{padding-right:0px;padding-left:0px;overflow:hidden;float:right;}
+.container-fluid{padding-right:0px;padding-left:0px;margin-right:auto;margin-left:auto;max-width:1120px;width:100%;overflow:hidden;}
+ul{margin-top:0;margin-bottom:0;list-style:none;}
+header{background:#fff;padding:4px 10px;width:100%;height:71px;-webkit-box-shadow:-1px 1px 5px -2px rgba(0,0,0,0.75);-moz-box-shadow:-1px 1px 5px -2px rgba(0,0,0,0.75);box-shadow:-1px 1px 5px -2px rgba(0,0,0,0.75);}
+header .logo{width:128px;height:59px;float:right;padding-top:12px;}
+.menu{float:right;margin-right:110px;padding-top:10px;}
+.menu ul{display:flex;}
+.menu li{display:inline;font-size:20px;font-family:"GretaArabic-M";color:rgb(0, 0, 0);line-height:1.3;margin-left:22px;padding:10px 2px 15px;position:relative;}
+.menu .item{padding-top:12px;}
+.menu li.item:hover::before,.menu .home-icon:hover::before{content:"";background:#1faee4;width:100%;height:3px;position:absolute;bottom:-2px;right:0px;}
+.menu_item::-webkit-scrollbar{width:20px;}
+::-webkit-scrollbar{width:20px;}
+::-webkit-scrollbar-track{box-shadow:inset 0 0 5px grey;border-radius:10px;}
+::-webkit-scrollbar-thumb{background:rgb(31, 174, 228);border-radius:10px;margin-right:20px;padding-right:20px;margin-left:-30px;height:60px;}
+::-webkit-scrollbar-thumb:before{content:'';width:1px;height:500px;border-right:1px solid red;right:30px;}
+::-webkit-scrollbar-thumb:hover{background-color:#069ee1;}
+.menu_item::-webkit-scrollbar-track{border-radius:0px;background:url('https://sahafaa.net/images/back-scroll.png') no-repeat center;height:3890px;box-shadow:none;}
+.menu_item::-webkit-scrollbar-thumb{background:#f0f0f0;border-radius:10px;margin-right:20px;padding-right:20px;margin-left:-30px;height:60px;}
+.menu_item::-webkit-scrollbar-thumb:before{content:'';width:1px;height:500px;border-right:1px solid red;right:30px;}
+.menu_item::-webkit-scrollbar-thumb:hover{background-color:#2bafe1;}
+.menu-cont{position:absolute;z-index:+1;display:none;top:58px;text-align:right;border-radius:60px;width:211px;height:270px;overflow-y:hidden;overflow-x:hidden;background-color:#ffffff;border-radius:0 0 10px 10px;right:0px;}
+.home-icon{width:36px;height:31px;background:url(https://sahafaa.net/images/2.png) no-repeat center;background-position-x:0px;background-position-y:0px;float:right;margin-top:0px;position:relative;}
+.menu .home-icon:hover::before{bottom:-17px;}
+.more-icon{width:30px;height:22px;float:right;background:url(https://sahafaa.net/images/2.png) no-repeat center;background-position-x:-137px;background-position-y:0px;margin-top:-10px;}
+.dropdown{position:relative;display:inline-block;}
+header .search{float:left;width:260px;height:46px;position:relative;margin-top:13px;}
+header .search input{width:260px;height:40px;background:#f6f6f6;border-radius:20px;border:none;padding-right:20px;}
+.search-icon{width:30px;height:30px;float:left;background:url(https://sahafaa.net/images/2.png);background-position-x:-102px;background-position-y:0px;cursor:pointer;margin-top:-4px;}
+header .search button{position:absolute;top:5px;left:7px;width:30px;height:30px;background:none;border:none;}
+.search-btn{width:35px;height:30px;background:url(https://sahafaa.net/images/2.png);background-position-x:-102px;background-position-y:0px;display:none;z-index:10;position:absolute;top:19px;right:10px;cursor:pointer;}
+.menu-btn{width:31px;height:30px;background:url(https://sahafaa.net/images/2.png);background-position-x:-137px;background-position-y:0px;display:none;z-index:10;position:absolute;top:17px;left:10px;cursor:pointer;}
+.menu_item{position:absolute;z-index:+1;display:none;top:0px;text-align:right;border-radius:60px;width:191px;height:270px;overflow-y:scroll;overflow-x:hidden;background-color:#ffffff;border-radius:0 0 10px 10px;right:0px;padding-top:30px;padding-right:15px;}
+.sub_menu_item:hover::before{content:'';height:31px;border:2px solid #b8b8b8;right:0px;position:absolute;margin-top:-8px;}
+.menu_item:before{content:"";background:url('https://sahafaa.net/images/down.png') no-repeat center;width:10px;height:10px;position:absolute;top:-2px;right:35px;}
+.menu_item1:before{right:15px;}
+.item-source:hover .menu_item,.item-source:hover .menu-cont{display:block;}
+.sub_menu_item{padding:0px 0px 25px 0px;font-size:16px;font-family:'GretaArabic-L';}
+.sub_menu_item a{font-size:18px;font-family:"GretaArabic-M";color:rgb(0, 0, 0);padding:15px;}
+.sub_menu_item:hover a{color:#1faee4;}
+.hidden_update_bar{display:none;}
+.dropdown:hover .menu-cont{display:block;}
+.dropdown .menu_item{overflow-y:hidden;padding-top:20px;}
+.dropdown .menu-cont{top:40.2px;right:-24px;height:60px;}
+@media (max-width: 1145px){
+.search input{width:247px;}
+}
+@media (max-width: 940px){
+.menu{margin-right:90px;}
+header .search{width:206px;}
+}
+@media (max-width: 835px){
+header .search{display:none;}
+}
+@media (max-width: 768px){
+.hid-md{display:none;}
+.row{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;}
+header .logo{float:none;margin:0 auto;padding-top:8px;}
+.menu-btn,.search-btn{display:block;}
+.hid-md{display:none!important;}
+}
+/*! CSS Used from: https://sahafaa.net/css/all_style44.css */
+*,::after,::before{box-sizing:border-box;}
+header{display:block;}
+ul{margin-top:0;margin-bottom:1rem;}
+a{color:#007bff;text-decoration:none;background-color:transparent;-webkit-text-decoration-skip:objects;}
+a:hover{color:#0056b3;text-decoration:underline;}
+img{vertical-align:middle;border-style:none;}
+button{border-radius:0;}
+button:focus{outline:1px dotted;outline:5px auto -webkit-focus-ring-color;}
+button,input{margin:0;font-family:inherit;font-size:inherit;line-height:inherit;}
+button,input{overflow:visible;}
+button{text-transform:none;}
+[type=submit],button{-webkit-appearance:button;}
+[type=submit]::-moz-focus-inner,button::-moz-focus-inner{padding:0;border-style:none;}
+.container-fluid{width:100%;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto;}
+.row{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-right:-15px;margin-left:-15px;}
+.col-12{position:relative;width:100%;min-height:1px;padding-right:15px;padding-left:15px;}
+.col-12{-webkit-box-flex:0;-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%;}
+.dropdown{position:relative;}
+@media print{
+*,::after,::before{text-shadow:none!important;box-shadow:none!important;}
+a:not(.btn){text-decoration:underline;}
+img{page-break-inside:avoid;}
+}
+*{margin:0px;padding:0px;box-sizing:border-box;}
+*,:before,:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+:focus{outline:0 none;}
+a{color:#333;text-decoration:none!important;}
+a:hover{color:#ce0000;}
+.row{margin-right:0px;margin-left:0px;overflow:visible;width:100%;float:right;display:inline;}
+.col-12{padding-right:0px;padding-left:0px;overflow:hidden;float:right;}
+.container-fluid{padding-right:0px;padding-left:0px;margin-right:auto;margin-left:auto;max-width:1120px;width:100%;overflow:hidden;}
+ul{margin-top:0;margin-bottom:0;list-style:none;}
+header{background:#fff;padding:4px 10px;width:100%;height:71px;-webkit-box-shadow:-1px 1px 5px -2px rgba(0,0,0,0.75);-moz-box-shadow:-1px 1px 5px -2px rgba(0,0,0,0.75);box-shadow:-1px 1px 5px -2px rgba(0,0,0,0.75);}
+header .logo{width:128px;height:59px;float:right;padding-top:12px;}
+.menu{float:right;margin-right:110px;padding-top:10px;}
+.menu ul{display:flex;}
+.menu li{display:inline;font-size:20px;font-family:"GretaArabic-M";color:rgb(0, 0, 0);line-height:1.3;margin-left:22px;padding:10px 2px 15px;position:relative;}
+.menu .item{padding-top:12px;}
+.menu li.item:hover::before,.menu .home-icon:hover::before{content:"";background:#1faee4;width:100%;height:3px;position:absolute;bottom:-2px;right:0px;}
+.menu_item::-webkit-scrollbar{width:20px;}
+::-webkit-scrollbar{width:20px;}
+::-webkit-scrollbar-track{box-shadow:inset 0 0 5px grey;border-radius:10px;}
+::-webkit-scrollbar-thumb{background:rgb(31, 174, 228);border-radius:10px;margin-right:20px;padding-right:20px;margin-left:-30px;height:60px;}
+::-webkit-scrollbar-thumb:before{content:'';width:1px;height:500px;border-right:1px solid red;right:30px;}
+::-webkit-scrollbar-thumb:hover{background-color:#069ee1;}
+.menu_item::-webkit-scrollbar-track{border-radius:0px;background:url('https://sahafaa.net/images/back-scroll.png') no-repeat center;height:3890px;box-shadow:none;}
+.menu_item::-webkit-scrollbar-thumb{background:#f0f0f0;border-radius:10px;margin-right:20px;padding-right:20px;margin-left:-30px;height:60px;}
+.menu_item::-webkit-scrollbar-thumb:before{content:'';width:1px;height:500px;border-right:1px solid red;right:30px;}
+.menu_item::-webkit-scrollbar-thumb:hover{background-color:#2bafe1;}
+.menu-cont{position:absolute;z-index:+1;display:none;top:58px;text-align:right;border-radius:60px;width:211px;height:270px;overflow-y:hidden;overflow-x:hidden;background-color:#ffffff;border-radius:0 0 10px 10px;right:0px;}
+.home-icon{width:36px;height:31px;background:url(https://sahafaa.net/images/2.png) no-repeat center;background-position-x:0px;background-position-y:0px;float:right;margin-top:0px;position:relative;}
+.menu .home-icon:hover::before{bottom:-17px;}
+.more-icon{width:30px;height:22px;float:right;background:url(https://sahafaa.net/images/2.png) no-repeat center;background-position-x:-137px;background-position-y:0px;margin-top:-10px;}
+.dropdown{position:relative;display:inline-block;}
+header .search{float:left;width:260px;height:46px;position:relative;margin-top:13px;}
+header .search input{width:260px;height:40px;background:#f6f6f6;border-radius:20px;border:none;padding-right:20px;}
+.search-icon{width:30px;height:30px;float:left;background:url(https://sahafaa.net/images/2.png);background-position-x:-102px;background-position-y:0px;cursor:pointer;margin-top:-4px;}
+header .search button{position:absolute;top:5px;left:7px;width:30px;height:30px;background:none;border:none;}
+.search-btn{width:35px;height:30px;background:url(https://sahafaa.net/images/2.png);background-position-x:-102px;background-position-y:0px;display:none;z-index:10;position:absolute;top:19px;right:10px;cursor:pointer;}
+.menu-btn{width:31px;height:30px;background:url(https://sahafaa.net/images/2.png);background-position-x:-137px;background-position-y:0px;display:none;z-index:10;position:absolute;top:17px;left:10px;cursor:pointer;}
+.menu_item{position:absolute;z-index:+1;display:none;top:0px;text-align:right;border-radius:60px;width:191px;height:270px;overflow-y:scroll;overflow-x:hidden;background-color:#ffffff;border-radius:0 0 10px 10px;right:0px;padding-top:30px;padding-right:15px;}
+.sub_menu_item:hover::before{content:'';height:31px;border:2px solid #b8b8b8;right:0px;position:absolute;margin-top:-8px;}
+.menu_item:before{content:"";background:url('https://sahafaa.net/images/down.png') no-repeat center;width:10px;height:10px;position:absolute;top:-2px;right:35px;}
+.menu_item1:before{right:15px;}
+.item-source:hover .menu_item,.item-source:hover .menu-cont{display:block;}
+.sub_menu_item{padding:0px 0px 25px 0px;font-size:16px;font-family:'GretaArabic-L';}
+.sub_menu_item a{font-size:18px;font-family:"GretaArabic-M";color:rgb(0, 0, 0);padding:15px;}
+.sub_menu_item:hover a{color:#1faee4;}
+.hidden_update_bar{display:none;}
+.dropdown:hover .menu-cont{display:block;}
+.dropdown .menu_item{overflow-y:hidden;padding-top:20px;}
+.dropdown .menu-cont{top:40.2px;right:-24px;height:60px;}
+@media (max-width: 1145px){
+.search input{width:247px;}
+}
+@media (max-width: 940px){
+.menu{margin-right:90px;}
+header .search{width:206px;}
+}
+@media (max-width: 835px){
+header .search{display:none;}
+}
+@media (max-width: 768px){
+.hid-md{display:none;}
+.row{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;}
+header .logo{float:none;margin:0 auto;padding-top:8px;}
+.menu-btn,.search-btn{display:block;}
+.hid-md{display:none!important;}
+}
